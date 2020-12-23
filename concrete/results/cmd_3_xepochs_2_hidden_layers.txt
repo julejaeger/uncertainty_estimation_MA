@@ -1,0 +1,412 @@
+(base) C:\Users\Jule\Documents\uni\MA-Recherche\implementation\DropoutUncertaintyExps-master>python experiment.py --dir concrete --epochx 3 --hidden 2
+2020-06-21 22:20:12.223760: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_101.dll'; dlerror: cudart64_101.dll not found
+2020-06-21 22:20:12.230588: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Using TensorFlow backend.
+Removing existing result files...
+Der Befehl "rm" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+Der Befehl "rm" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+Der Befehl "rm" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+Der Befehl "rm" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+Der Befehl "rm" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+Der Befehl "rm" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+Der Befehl "rm" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+Der Befehl "rm" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+Result files removed.
+Loading data and other hyperparameters...
+Done.
+Loading file: ./UCI_Datasets/concrete/data/index_train_0.txt
+Loading file: ./UCI_Datasets/concrete/data/index_test_0.txt
+Number of training examples: 741
+Number of validation examples: 186
+Number of test examples: 103
+Number of train_original examples: 927
+Grid search step: Tau: 0.025 Dropout rate: 0.005
+2020-06-21 22:20:20.913403: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'nvcuda.dll'; dlerror: nvcuda.dll not found
+2020-06-21 22:20:20.919702: E tensorflow/stream_executor/cuda/cuda_driver.cc:313] failed call to cuInit: UNKNOWN ERROR (303)
+2020-06-21 22:20:20.933858: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: DESKTOP-59OK8K0
+2020-06-21 22:20:20.940317: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: DESKTOP-59OK8K0
+2020-06-21 22:20:20.947423: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2020-06-21 22:20:20.993840: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x15d5c78e650 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-21 22:20:21.002292: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+1/1 [==============================] - 0s 983us/step
+Best log_likelihood changed to: -3.113672397615855
+Best tau changed to: 0.025
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.05 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Best log_likelihood changed to: -3.0507117489478626
+Best tau changed to: 0.05
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.075 Dropout rate: 0.005
+1/1 [==============================] - 0s 1ms/step
+Best log_likelihood changed to: -3.0467074689632745
+Best tau changed to: 0.075
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.025 Dropout rate: 0.01
+1/1 [==============================] - 0s 998us/step
+Grid search step: Tau: 0.05 Dropout rate: 0.01
+1/1 [==============================] - 0s 628us/step
+Best log_likelihood changed to: -3.0216327630262296
+Best tau changed to: 0.05
+Best dropout rate changed to: 0.01
+Grid search step: Tau: 0.075 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.05
+1/1 [==============================] - 0s 983us/step
+Grid search step: Tau: 0.025 Dropout rate: 0.1
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.1
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.1
+1/1 [==============================] - 0s 0s/step
+1/1 [==============================] - 0s 999us/step
+Tests on split 0 complete.
+Loading file: ./UCI_Datasets/concrete/data/index_train_1.txt
+Loading file: ./UCI_Datasets/concrete/data/index_test_1.txt
+Number of training examples: 741
+Number of validation examples: 186
+Number of test examples: 103
+Number of train_original examples: 927
+Grid search step: Tau: 0.025 Dropout rate: 0.005
+1/1 [==============================] - 0s 1000us/step
+Best log_likelihood changed to: -3.1756760971745455
+Best tau changed to: 0.025
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.05 Dropout rate: 0.005
+1/1 [==============================] - 0s 999us/step
+Best log_likelihood changed to: -3.0461112671505934
+Best tau changed to: 0.05
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.075 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.01
+1/1 [==============================] - 0s 996us/step
+Grid search step: Tau: 0.025 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.05
+1/1 [==============================] - 0s 1000us/step
+Grid search step: Tau: 0.025 Dropout rate: 0.1
+1/1 [==============================] - 0s 997us/step
+Grid search step: Tau: 0.05 Dropout rate: 0.1
+1/1 [==============================] - 0s 1000us/step
+Grid search step: Tau: 0.075 Dropout rate: 0.1
+1/1 [==============================] - 0s 303us/step
+1/1 [==============================] - 0s 0s/step
+Tests on split 1 complete.
+Loading file: ./UCI_Datasets/concrete/data/index_train_2.txt
+Loading file: ./UCI_Datasets/concrete/data/index_test_2.txt
+Number of training examples: 741
+Number of validation examples: 186
+Number of test examples: 103
+Number of train_original examples: 927
+Grid search step: Tau: 0.025 Dropout rate: 0.005
+1/1 [==============================] - 0s 1ms/step
+Best log_likelihood changed to: -3.0897880559864537
+Best tau changed to: 0.025
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.05 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Best log_likelihood changed to: -3.050047216996903
+Best tau changed to: 0.05
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.075 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.01
+1/1 [==============================] - 0s 983us/step
+Grid search step: Tau: 0.05 Dropout rate: 0.01
+1/1 [==============================] - 0s 998us/step
+Grid search step: Tau: 0.075 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.05
+1/1 [==============================] - 0s 1000us/step
+Grid search step: Tau: 0.025 Dropout rate: 0.1
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.1
+1/1 [==============================] - 0s 330us/step
+Grid search step: Tau: 0.075 Dropout rate: 0.1
+1/1 [==============================] - 0s 985us/step
+1/1 [==============================] - 0s 1ms/step
+Tests on split 2 complete.
+Loading file: ./UCI_Datasets/concrete/data/index_train_3.txt
+Loading file: ./UCI_Datasets/concrete/data/index_test_3.txt
+Number of training examples: 741
+Number of validation examples: 186
+Number of test examples: 103
+Number of train_original examples: 927
+Grid search step: Tau: 0.025 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Best log_likelihood changed to: -3.257080613188773
+Best tau changed to: 0.025
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.05 Dropout rate: 0.005
+1/1 [==============================] - 0s 983us/step
+Best log_likelihood changed to: -3.2086645416057262
+Best tau changed to: 0.05
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.075 Dropout rate: 0.005
+1/1 [==============================] - 0s 999us/step
+Grid search step: Tau: 0.025 Dropout rate: 0.01
+1/1 [==============================] - 0s 1ms/step
+Grid search step: Tau: 0.05 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.01
+1/1 [==============================] - 0s 1ms/step
+Grid search step: Tau: 0.025 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.05
+1/1 [==============================] - 0s 998us/step
+Grid search step: Tau: 0.025 Dropout rate: 0.1
+1/1 [==============================] - 0s 986us/step
+Grid search step: Tau: 0.05 Dropout rate: 0.1
+1/1 [==============================] - 0s 985us/step
+Grid search step: Tau: 0.075 Dropout rate: 0.1
+1/1 [==============================] - 0s 0s/step
+1/1 [==============================] - 0s 1000us/step
+Tests on split 3 complete.
+Loading file: ./UCI_Datasets/concrete/data/index_train_4.txt
+Loading file: ./UCI_Datasets/concrete/data/index_test_4.txt
+Number of training examples: 741
+Number of validation examples: 186
+Number of test examples: 103
+Number of train_original examples: 927
+Grid search step: Tau: 0.025 Dropout rate: 0.005
+1/1 [==============================] - 0s 998us/step
+Best log_likelihood changed to: -3.0931148740125893
+Best tau changed to: 0.025
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.05 Dropout rate: 0.005
+1/1 [==============================] - 0s 1ms/step
+Best log_likelihood changed to: -3.034888338076163
+Best tau changed to: 0.05
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.075 Dropout rate: 0.005
+1/1 [==============================] - 0s 985us/step
+Grid search step: Tau: 0.025 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Best log_likelihood changed to: -3.002158292743487
+Best tau changed to: 0.075
+Best dropout rate changed to: 0.01
+Grid search step: Tau: 0.025 Dropout rate: 0.05
+1/1 [==============================] - 0s 1ms/step
+Grid search step: Tau: 0.05 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.1
+1/1 [==============================] - 0s 999us/step
+Grid search step: Tau: 0.05 Dropout rate: 0.1
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.1
+1/1 [==============================] - 0s 996us/step
+1/1 [==============================] - 0s 1ms/step
+Tests on split 4 complete.
+Loading file: ./UCI_Datasets/concrete/data/index_train_5.txt
+Loading file: ./UCI_Datasets/concrete/data/index_test_5.txt
+Number of training examples: 741
+Number of validation examples: 186
+Number of test examples: 103
+Number of train_original examples: 927
+Grid search step: Tau: 0.025 Dropout rate: 0.005
+1/1 [==============================] - 0s 99us/step
+Best log_likelihood changed to: -3.141176029540835
+Best tau changed to: 0.025
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.05 Dropout rate: 0.005
+1/1 [==============================] - 0s 1000us/step
+Grid search step: Tau: 0.075 Dropout rate: 0.005
+1/1 [==============================] - 0s 986us/step
+Best log_likelihood changed to: -3.13712456816623
+Best tau changed to: 0.075
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.025 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.01
+1/1 [==============================] - 0s 1ms/step
+Grid search step: Tau: 0.075 Dropout rate: 0.01
+1/1 [==============================] - 0s 985us/step
+Grid search step: Tau: 0.025 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.05
+1/1 [==============================] - 0s 1ms/step
+Grid search step: Tau: 0.075 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.1
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.1
+1/1 [==============================] - 0s 984us/step
+Grid search step: Tau: 0.075 Dropout rate: 0.1
+1/1 [==============================] - 0s 0s/step
+1/1 [==============================] - 0s 998us/step
+Tests on split 5 complete.
+Loading file: ./UCI_Datasets/concrete/data/index_train_6.txt
+Loading file: ./UCI_Datasets/concrete/data/index_test_6.txt
+Number of training examples: 741
+Number of validation examples: 186
+Number of test examples: 103
+Number of train_original examples: 927
+Grid search step: Tau: 0.025 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Best log_likelihood changed to: -3.1098209908174677
+Best tau changed to: 0.025
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.05 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.01
+1/1 [==============================] - 0s 16ms/step
+Grid search step: Tau: 0.05 Dropout rate: 0.01
+1/1 [==============================] - 0s 984us/step
+Best log_likelihood changed to: -3.0847618713458504
+Best tau changed to: 0.05
+Best dropout rate changed to: 0.01
+Grid search step: Tau: 0.075 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.05
+1/1 [==============================] - 0s 999us/step
+Grid search step: Tau: 0.025 Dropout rate: 0.1
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.1
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.1
+1/1 [==============================] - 0s 1000us/step
+1/1 [==============================] - 0s 0s/step
+Tests on split 6 complete.
+Loading file: ./UCI_Datasets/concrete/data/index_train_7.txt
+Loading file: ./UCI_Datasets/concrete/data/index_test_7.txt
+Number of training examples: 741
+Number of validation examples: 186
+Number of test examples: 103
+Number of train_original examples: 927
+Grid search step: Tau: 0.025 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Best log_likelihood changed to: -3.082123280600305
+Best tau changed to: 0.025
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.05 Dropout rate: 0.005
+1/1 [==============================] - 0s 1ms/step
+Best log_likelihood changed to: -3.022619719155114
+Best tau changed to: 0.05
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.075 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.01
+1/1 [==============================] - 0s 985us/step
+Grid search step: Tau: 0.05 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.05
+1/1 [==============================] - 0s 986us/step
+Grid search step: Tau: 0.05 Dropout rate: 0.05
+1/1 [==============================] - 0s 996us/step
+Grid search step: Tau: 0.075 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.1
+1/1 [==============================] - 0s 997us/step
+Grid search step: Tau: 0.05 Dropout rate: 0.1
+1/1 [==============================] - 0s 1000us/step
+Grid search step: Tau: 0.075 Dropout rate: 0.1
+1/1 [==============================] - 0s 999us/step
+1/1 [==============================] - 0s 1000us/step
+Tests on split 7 complete.
+Loading file: ./UCI_Datasets/concrete/data/index_train_8.txt
+Loading file: ./UCI_Datasets/concrete/data/index_test_8.txt
+Number of training examples: 741
+Number of validation examples: 186
+Number of test examples: 103
+Number of train_original examples: 927
+Grid search step: Tau: 0.025 Dropout rate: 0.005
+1/1 [==============================] - 0s 999us/step
+Best log_likelihood changed to: -3.090991686934119
+Best tau changed to: 0.025
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.05 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Best log_likelihood changed to: -3.0296902044487246
+Best tau changed to: 0.05
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.075 Dropout rate: 0.005
+1/1 [==============================] - 0s 562us/step
+Grid search step: Tau: 0.025 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.01
+1/1 [==============================] - 0s 997us/step
+Best log_likelihood changed to: -3.026236120069489
+Best tau changed to: 0.05
+Best dropout rate changed to: 0.01
+Grid search step: Tau: 0.075 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.05
+1/1 [==============================] - 0s 999us/step
+Grid search step: Tau: 0.05 Dropout rate: 0.05
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.05
+1/1 [==============================] - 0s 999us/step
+Grid search step: Tau: 0.025 Dropout rate: 0.1
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.05 Dropout rate: 0.1
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.075 Dropout rate: 0.1
+1/1 [==============================] - 0s 1000us/step
+1/1 [==============================] - 0s 0s/step
+Tests on split 8 complete.
+Loading file: ./UCI_Datasets/concrete/data/index_train_9.txt
+Loading file: ./UCI_Datasets/concrete/data/index_test_9.txt
+Number of training examples: 741
+Number of validation examples: 186
+Number of test examples: 103
+Number of train_original examples: 927
+Grid search step: Tau: 0.025 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Best log_likelihood changed to: -3.0921132262866458
+Best tau changed to: 0.025
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.05 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Best log_likelihood changed to: -3.00411234466955
+Best tau changed to: 0.05
+Best dropout rate changed to: 0.005
+Grid search step: Tau: 0.075 Dropout rate: 0.005
+1/1 [==============================] - 0s 0s/step
+Grid search step: Tau: 0.025 Dropout rate: 0.01
+1/1 [==============================] - 0s 652us/step
+Grid search step: Tau: 0.05 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
+Best log_likelihood changed to: -2.9929525782237567
+Best tau changed to: 0.05
+Best dropout rate changed to: 0.01
+Grid search step: Tau: 0.075 Dropout rate: 0.01
+1/1 [==============================] - 0s 0s/step
